@@ -5,7 +5,7 @@ Flask-Cors
 langchain
 langchain-core
 langchain-openai
-langchian-community
+langchain-community
 langchain-pinecone
 openai
 python-dotenv
