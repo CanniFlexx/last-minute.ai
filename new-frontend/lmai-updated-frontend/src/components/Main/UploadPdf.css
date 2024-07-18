@@ -1,0 +1,50 @@
+.upload-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  backdrop-filter: blur(5px); /* Add blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.upload-modal {
+  background-color: #c4c7c5;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.upload-modal h2 {
+  margin-bottom: 20px;
+  color: #585858;
+}
+
+.upload-modal input {
+  padding: 10px;
+  border-radius: 10px; /* Make edges rounder */
+  margin-bottom: 10px;
+}
+
+.upload-modal button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; /* Make edges rounder */
+  background-color: #4d8fff; /* Blue color */
+  color: white;
+  font-size: 15px;
+}
+
+.upload-modal button:hover {
+  background-color: #4d8faa; /* Darker blue color on hover */
+}
+
+.upload-modal .error-message {
+  color: red;
+  margin-top: 10px;
+}
