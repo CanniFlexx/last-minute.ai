@@ -1,1 +1,1 @@
-# LastMinute.ai - An platform helping students with last minute exam preparation.
+# LastMinute.ai - A platform helping students with last minute exam preparation.
